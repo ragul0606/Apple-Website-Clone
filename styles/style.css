@@ -138,6 +138,7 @@ li {
   font-size: 1.25rem;
   color: #fff;
   margin-top: -1.5rem;
+  font-weight: 500;
 }
 
 .anchor-header:hover {
@@ -148,7 +149,7 @@ li {
   display: flex;
   gap: 1.75rem;
   font-weight: 400;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   margin-top: 1.1rem;
   /* margin-bottom: 11rem; */
 }
@@ -181,6 +182,7 @@ li {
 
 .box-2-support {
   font-size: 1.25rem;
+  font-weight: 500;
   color: black;
 }
 
@@ -222,6 +224,79 @@ li {
 }
 
 .box-4 {
+  width: 100%;
+}
+
+.box-4-left {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../MobileImages/iphone_tradein_promo__d5au3rkw5kuq_small.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.box-4-heading-left {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: black;
+  text-align: start;
+  margin-top: 3rem;
+}
+
+.box-4-left-support {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.box-4-right {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../MobileImages/promo_wwdc23__b68ptht3mro2_small.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.box-4-heading-right {
+  display: flex;
+  flex-direction: row;
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: start;
+  padding: 3rem 0;
+}
+
+.box-4-right-support {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  margin: 0 7.25rem;
+  margin-top: -3rem;
+  margin-bottom: 5rem;
+}
+
+.anchor-tags-special {
+  font-weight: 400;
+  font-size: 1.15rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.support-anchor-special {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-top: -3rem;
 }
 
 @media screen and (min-width: 576px) {
