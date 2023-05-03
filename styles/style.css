@@ -112,6 +112,10 @@ li {
   color: rgb(0, 102, 204);
 }
 
+.box-1 {
+  background-image: url();
+}
+
 .anchor-header:hover {
   text-decoration: underline;
 }
