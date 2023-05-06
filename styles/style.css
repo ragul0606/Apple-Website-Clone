@@ -547,7 +547,8 @@ footer {
 
 @media screen and (min-width: 576px) {
   body {
-    gap: 1rem;
+    width: 100%;
+    min-height: 100vh;
   }
 
   .navbar {
@@ -694,6 +695,42 @@ footer {
   .column-4-footer,
   .final-column {
     margin: 0 9.75rem;
+  }
+
+  .column-1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .footer-line {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-list {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .para-2-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 0.25rem;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .column-2-para-footer,
+  .column-3-footer,
+  .column-4-footer,
+  .final-column {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .final-column {
+    margin-bottom: 2rem;
   }
 }
 
